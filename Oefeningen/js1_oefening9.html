@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oefening 5.1</title>
+    <script>
+    // Document.write werkt niet in mijn external JS
+    let datum = new Date();
+    let minuut = datum.getMinutes();
+
+    if (minuut > 0 && minuut <=15) {
+        document.write("Eerste Kwartier");
+    }
+
+    else if (minuut >= 16 && minuut <=30) {
+        document.write("Tweede Kwartier");
+    }
+
+    else if (minuut >= 31 && minuut <=45) {
+        document.write("Derde Kwartier");
+    }
+
+    else {
+        document.write("Vierde Kwartier")
+    }
+</script>
+</head>
+<body>
+
+</body>
+</html>
