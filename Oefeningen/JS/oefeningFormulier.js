@@ -4,14 +4,14 @@
 
 function controleer()
 {
-    let naam = document.getElementById("invoerNaam").value;
-    let woonplaats = document.getElementById("invoerWoonplaats").value;
+    let naam = document.getElementById("invoer-naam").value;
+    let woonplaats = document.getElementById("invoer-woonplaats").value;
     if (naam == "" && woonplaats == "")
     {
-        document.getElementById("uitvoerNaam").innerHTML = "Niks ingevuld";
+        document.getElementById("uitvoer-naam").innerHTML = "Niks ingevuld";
     }
     else
     {
-        document.getElementById("uitvoerNaam").innerHTML = "Hallo, " + naam + ". Jij woont in " + woonplaats + ".";
+        document.getElementById("uitvoer-naam").innerHTML = "Hallo, " + naam + ". Jij woont in " + woonplaats + ".";
     }
 }
